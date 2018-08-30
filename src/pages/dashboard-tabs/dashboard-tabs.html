@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Dashboard</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only>
+          <ion-icon name="add"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+ 
+
+
+<ion-tabs #myTabs>
+  <ion-tab tabIcon="md-chatbubbles" tabTitle="Messages" [root]="tab1"></ion-tab>
+  <ion-tab tabIcon="md-notifications" tabTitle="Notifications" [root]="tab2"></ion-tab>
+ 
+
+</ion-tabs>
