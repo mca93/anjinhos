@@ -40,9 +40,10 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222,
   yellow:     yellow,
-  blue:       rgb(0, 255, 242)
-  
+  blue:       #48f3ff,
+  myColor: #48f3ff
 );
+
 
 
 // App iOS Variables
@@ -89,3 +90,4 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+

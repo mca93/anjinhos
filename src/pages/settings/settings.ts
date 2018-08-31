@@ -17,4 +17,21 @@ export class SettingsPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+
+  meal(){
+    alert("Plano de alimentacao semanal")
+  }
+
+  videos(){
+    alert("Relatorio de estadia do meu filho")
+  }
+
+  profile(){
+    alert("Meus dados")
+  }
+
+  wallet(){
+    alert("Minha conta")
+
+  }
 }

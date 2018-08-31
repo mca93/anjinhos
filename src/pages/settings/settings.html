@@ -15,36 +15,60 @@
     <ion-content class="card-background-page">
       <ion-grid>
         <ion-row>
-            <ion-col col-6 item-height="100%"> 
-              <ion-card>
-                <img src="https://cdn3.iconfinder.com/data/icons/solid-amenities-icon-set/64/Food_2-512.png"/>
-                <div class="card-title">Meals</div>
-              </ion-card>
+            <ion-col col-6> 
+                  <ion-card  class="fixline" (click)="meal()">
+                      <img src="https://cdn3.iconfinder.com/data/icons/solid-amenities-icon-set/64/Food_2-512.png"/>
+                      <ion-card-content>
+                        <ion-card-title>
+                          </ion-card-title>
+                        <p>
+                          <b>Meal</b> 
+                        </p>
+                      </ion-card-content>
+                    </ion-card>
             </ion-col>
 
 
             <ion-col col-6>
-              <ion-card>
-                <img src= "https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/video-24-512.png"/>
-                <div class="card-title">Video</div>
-                </ion-card>
+                <ion-card  class="fixline" (click)="videos()">
+                    <img src= "https://cdn2.iconfinder.com/data/icons/flat-ui-icons-24-px/24/video-24-512.png"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        </ion-card-title>
+                      <p>
+                        <b>Videos</b>
+                      </p>
+                    </ion-card-content>
+                  </ion-card>
             </ion-col>
         </ion-row>  
 
         <ion-row>
           <ion-col col-6>
-            <ion-card>
-              <img src= "https://cdn3.iconfinder.com/data/icons/essential-rounded/66/Rounded-39-512.png"/>
-              <div class="card-title">Payments</div>
-            </ion-card>
+              <ion-card  class="fixline" (click)="wallet()">
+                  <img src= "https://cdn3.iconfinder.com/data/icons/essential-rounded/66/Rounded-39-512.png"/>
+                  <ion-card-content>
+                    <ion-card-title>
+                      </ion-card-title>
+                    <p>
+                      <b>My Bills</b> 
+                    </p>
+                  </ion-card-content>
+                </ion-card>
           </ion-col>
 
 
           <ion-col col-6>
-            <ion-card>
-              <img src= "https://cdn3.iconfinder.com/data/icons/essential-rounded/64/Rounded-32-512.png"/>
-              <div class="card-title">My Information</div>
-            </ion-card>   
+              <ion-card  class="fixline" (click)="profile()">
+                  <img src= "https://cdn3.iconfinder.com/data/icons/essential-rounded/64/Rounded-32-512.png"/>
+                  <ion-card-content>
+                    <ion-card-title>
+                      </ion-card-title>
+                    <p>
+                      <b>My Information</b>
+                    </p>
+                  </ion-card-content>
+                </ion-card>
           </ion-col>
       </ion-row> 
       </ion-grid>
